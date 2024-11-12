@@ -1,5 +1,6 @@
 #include "TextureConverter.h"
-#include "stringapiset.h"
+#include <Windows.h>
+//#include "stringapiset.h"
 
 void TextureConverter::ConvertTextureWICToDDS(const std::string& filePath) 
 {
